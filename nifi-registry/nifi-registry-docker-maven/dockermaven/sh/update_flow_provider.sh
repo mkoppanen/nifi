@@ -40,5 +40,6 @@ case ${NIFI_REGISTRY_FLOW_PROVIDER} in
         add_property "Remote To Push"  "${NIFI_REGISTRY_GIT_REMOTE:-}"
         add_property "Remote Access User"  "${NIFI_REGISTRY_GIT_USER:-}"
         add_property "Remote Access Password"    "${NIFI_REGISTRY_GIT_PASSWORD:-}"
+        add_property "Remote Clone Repository"   "${NIFI_REGISTRY_GIT_CLONE_REPOSITORY:-}"
         ;;
 esac
